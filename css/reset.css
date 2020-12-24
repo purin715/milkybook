@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+@font-face {
+	font-family: arm;
+	src: url("../fonts/ARLRDBD.eot");
+	src: local(''), url("../fonts/ARLRDBD.TTF.woff") format('woff');
+}
+@font-face {
+	font-family: gsmb;
+	src: url("../fonts/GIL_____.eot");
+	src: local(''), url("../fonts/GIL_____.TTF.woff") format('woff');
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 15px;
+	color: #333;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+ol li, ul li {
+	float: left;
+}
+
+a {
+	display: block;
+	color: #333;
+	text-decoration: none;
+	border: none; /* 테두리 제거 */
+	outline: none; /* 점선 테두리 제거 */
+}
+
+.clear {
+	clear: both;
+}

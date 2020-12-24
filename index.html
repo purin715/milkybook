@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MilkyBook Responsive Web</title>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="flexslider/flexslider.css">
+<link rel="stylesheet" href="css/desktop-uhd.css" media="screen and (min-width: 1350px)">
+<link rel="stylesheet" href="css/desktop.css" media="screen and (min-width: 1050px) and (max-width: 1349px)">
+<link rel="stylesheet" href="css/tablet.css" media="screen and (min-width: 660px) and (max-width: 1049px)">
+<link rel="stylesheet" href="css/mobile.css" media="screen and (max-width: 659px)">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/jquery.flexslider-min.js"></script>
+<script>
+	$(document).ready(function() {
+		$('.flexslider').flexslider({animation:'slide'});
+		/*$('#trigger').click(function() {
+			$('.main-menu').slideToggle();
+		});*/
+	});
+</script>
+</head>
+
+<body>
+	<header>
+		<nav>
+			<h1>Milky <span>book</span></h1>
+			<input type="checkbox" id="check">
+			<label for="check" class="checkBtn">
+				<a href="#" id="trigger"><i class="fa fa-bars"></i></a>
+			</label>
+			<ul class="main-menu">
+				<li><a href="#">소개</a></li>
+				<li><a href="#">우주여행안내</a></li>
+				<li><a href="#">별자리</a></li>
+				<li><a href="#">별마루천문대</a></li>
+			</ul>
+			<ul class="top-menu">
+				<li><a href="#"><i class="fa fa-user"></i><span>로그인</span></a></li>
+				<li><a href="#"><i class="fa fa-link"></i><span>회원가입</span></a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="clear"></div>
+	
+	<section>
+		<div class="flexslider uhd">
+			<ul class="slides">
+				<li><a href="#"><img src="imgs/uhd-slide1.jpg" alt="START SPACE TRAVEL"></a></li>
+				<li><a href="#"><img src="imgs/uhd-slide2.jpg" alt="Byeolmaro Observatory"></a></li>
+			</ul>
+		</div>
+		<div class="flexslider tablet">
+			<ul class="slides">
+				<li><a href="#"><img src="imgs/tb-slide1.jpg" alt="START SPACE TRAVEL"></a></li>
+				<li><a href="#"><img src="imgs/tb-slide2.jpg" alt="Byeolmaro Observatory"></a></li>
+			</ul>
+		</div>
+		<div class="flexslider mobile">
+			<ul class="slides">
+				<li><a href="#"><img src="imgs/mb-slide1.jpg" alt="START SPACE TRAVEL"></a></li>
+				<li><a href="#"><img src="imgs/mb-slide2.jpg" alt="Byeolmaro Observatory"></a></li>
+			</ul>
+		</div>
+		<div class="atc-wrap">
+			<article>
+				<h3><a href="#">Space travel</a></h3>
+				<div class="space"></div>
+				<p><a href="#">경이로운 우주 여행...  앞으로 먼 미래에 우주를 탐험 할 수 있는 날이 옵니다! 사전예약하러 가볼까요?</a></p>
+			</article>
+			<article>
+				<h3><a href="#">Galaxy</a></h3>
+				<div class="galaxy"></div>
+				<p><a href="#">20세기 초까지만 해도 사람들은 우리 은하계가 우주의 전부라고 생각했다. 당시의 망원경은 지금 보다 성능이 떨어졌기 때문에...</a></p>
+			</article>
+			<article>
+				<h3><a href="#">Earth</a></h3>
+				<div class="earth"></div>
+				<p><a href="#">지구는 우주에서 봤을 때 푸른색의 바다와 녹색의 산, 갈색의 흙에 흰색의 구름이 조화를 이루고 있는 아름다운 행성이다.</a></p>
+			</article>
+			<article>
+				<h3><a href="#">Astronomy</a></h3>
+				<div class="astronomy"></div>
+				<p><a href="#">최상의 관측조건인 해발 799.8m 봉래산 정상에 자리하고 있으며, 지름 80cm 주망원경과 여러대의 보조망원경이 설치되어...</a></p>
+			</article>
+		</div>
+	</section>
+	<div class="clear"></div>
+	<footer>
+		<div class="ft-wrap">
+			<p class="ft-logo">Milky book</p>
+			<p class="addr">광주광역시 동구 무등로 339 (구: 계림동 558-7번지) | TEL : 062)605-8000,8008(홍보실) 8031(행정실) | FAX : 062)605-8015(홍보실)<br>Copyright &copy; 2017 Milky Book. All Rights Reserved.</p>
+			<ul class="sns">
+				<li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+				<li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+				<li><a href="#"><i class="fa fa-rss-square"></i></a></li>
+			</ul>
+		</div>
+	</footer>
+</body>
+</html>
